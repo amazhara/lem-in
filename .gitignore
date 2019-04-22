@@ -57,3 +57,4 @@ cmake*
 *.txt
 gen*
 file*
+.idea
