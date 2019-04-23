@@ -11,29 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="310b935c-1838-4756-9d5b-e097f305bf4c" name="Default Changelist" comment="add gitsub">
-      <change afterPath="$PROJECT_DIR$/algorithm.c" afterDir="false" />
+    <list default="true" id="310b935c-1838-4756-9d5b-e097f305bf4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.c" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in.h" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/includes/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/includes/ft_printf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/check_type.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/check_type.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/ft_base_len.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/ft_base_len.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/ft_fitoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/ft_fitoa.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/ft_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/ft_printf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/norm_case.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/norm_case.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/output_buf_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/output_buf_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/output_f.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/output_f.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/pars_and_process.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/pars_and_process.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/pars_u_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/pars_u_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/printf_stars.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/printf_stars.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_c.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_c.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_d_i.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_d_i.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_f.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_f.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_p.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_p.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_pc.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_pc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_s.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_s.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_printf/src/process_u_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/src/process_u_x.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_printf/libft/ft_array.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/libft/ft_array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_printf/libft/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/my_printf/libft/libft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.c" beforeDir="false" afterPath="$PROJECT_DIR$/output.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/parse.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms.c" afterDir="false" />
@@ -50,10 +34,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lem-in.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validation.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lem-in.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="630">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="e#35#70#0" expanded="true" />
               </folding>
@@ -62,37 +73,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lem-in.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rooms.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="622">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -101,10 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file1">
+        <entry file="file://$PROJECT_DIR$/file2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -124,12 +117,13 @@
       <find>&quot;ft_printf.h&quot;</find>
       <find>&quot;../ft_printf.h&quot;</find>
       <find>Zmr5</find>
-      <find>printf</find>
       <find>printf(&quot;</find>
       <find>printf(&quot;%</find>
       <find>antcount</find>
       <find>Wch6</find>
       <find>g_antscount</find>
+      <find>parse</find>
+      <find>printf</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -138,9 +132,9 @@
       <replace>t_room	*push_array(t_rooms *rooms, t_room *elem)</replace>
       <replace>&quot;../ft_printf.h&quot;</replace>
       <replace>&quot;../includes/ft_printf.h&quot;</replace>
-      <replace>ft_printf</replace>
       <replace>ft_printf(&quot;%</replace>
       <replace>g_antscount</replace>
+      <replace>ft_printf</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -155,22 +149,24 @@
         <option value="$PROJECT_DIR$/bigfile" />
         <option value="$PROJECT_DIR$/my_printf/libft/Makefile" />
         <option value="$PROJECT_DIR$/my_printf/libft/ft_strnjoin.c" />
-        <option value="$PROJECT_DIR$/my_printf/libft/libft.h" />
         <option value="$PROJECT_DIR$/my_printf/libft/strchr_count.c" />
-        <option value="$PROJECT_DIR$/my_printf/libft/ft_array.c" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/my_printf/src/check_type.c" />
         <option value="$PROJECT_DIR$/my_printf/includes/ft_printf.h" />
-        <option value="$PROJECT_DIR$/output.c" />
         <option value="$PROJECT_DIR$/my_printf/libft/ft_atoi.c" />
-        <option value="$PROJECT_DIR$/file1" />
-        <option value="$PROJECT_DIR$/validation.c" />
-        <option value="$PROJECT_DIR$/parse.c" />
-        <option value="$PROJECT_DIR$/lem-in.c" />
+        <option value="$PROJECT_DIR$/my_printf/libft/libft.h" />
         <option value="$PROJECT_DIR$/rooms.c" />
-        <option value="$PROJECT_DIR$/lem-in.h" />
+        <option value="$PROJECT_DIR$/my_printf/libft/ft_array.c" />
+        <option value="$PROJECT_DIR$/file1" />
+        <option value="$PROJECT_DIR$/file2.c" />
+        <option value="$PROJECT_DIR$/file2" />
+        <option value="$PROJECT_DIR$/parse.c" />
         <option value="$PROJECT_DIR$/algorithm.c" />
+        <option value="$PROJECT_DIR$/lem-in.c" />
+        <option value="$PROJECT_DIR$/lem-in.h" />
+        <option value="$PROJECT_DIR$/output.c" />
+        <option value="$PROJECT_DIR$/validation.c" />
       </list>
     </option>
   </component>
@@ -185,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,13 +193,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -238,7 +235,8 @@
       <workItem from="1555941355617" duration="6884000" />
       <workItem from="1555953745876" duration="618000" />
       <workItem from="1556002151424" duration="1661000" />
-      <workItem from="1556008206273" duration="4894000" />
+      <workItem from="1556008206273" duration="12029000" />
+      <workItem from="1556024132070" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="add gitsub">
       <created>1555915731638</created>
@@ -261,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555949997830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pars ready">
+      <created>1556013780287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556013780287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26738000" />
+    <option name="totallyTimeSpent" value="36007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +286,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2573471" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2593328" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32919708" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -289,7 +294,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4459854" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.4459854" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="CMake" order="8" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -317,18 +322,45 @@
       <path value="$PROJECT_DIR$/my_printf/libft/sj/," />
     </ignored-roots>
     <MESSAGE value="add gitsub" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitsub" />
+    <MESSAGE value="pars ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="pars ready" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="g_rooms" language="ObjectiveC" />
-        <watch expression="&amp;head_point" language="ObjectiveC" />
+        <watch expression="g_queue" language="ObjectiveC" />
+        <watch expression="g_tail" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>g_tail</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_head</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_path</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_queue-&gt;arr[i]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_queue</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>&amp;head_point</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -351,26 +383,6 @@
       </expression>
       <expression>
         <expression-string>g_rooms-&gt;arr[15]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>g_rooms-&gt;arr[18]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>g_rooms[3]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>g_rooms[10]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>g_rooms[25]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -410,16 +422,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/go" />
     <entry file="file://$PROJECT_DIR$/k" />
-    <entry file="file://$PROJECT_DIR$/my_printf/libft/libft.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
-          <folding>
-            <element signature="e#951#974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_printf/libft/ft_strnjoin.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -468,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_printf/src/check_type.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -488,13 +483,6 @@
     <entry file="file://$PROJECT_DIR$/my_printf/src/ft_fitoa.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_printf/libft/ft_array.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_printf/libft/ft_atoi.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -502,68 +490,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file1">
+    <entry file="file://$PROJECT_DIR$/my_printf/src/ft_printf.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.c">
+    <entry file="file://$PROJECT_DIR$/rooms.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_printf/libft/ft_array.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="441">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation.c">
+    <entry file="file://$PROJECT_DIR$/my_printf/libft/libft.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="495">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding>
-            <element signature="e#35#70#0" expanded="true" />
+            <element signature="e#951#974#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lem-in.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rooms.c">
+    <entry file="file://$PROJECT_DIR$/output.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="622">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem-in.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding>
+            <element signature="e#35#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

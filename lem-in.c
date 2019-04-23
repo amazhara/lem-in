@@ -5,6 +5,7 @@ int main()
 	g_rooms = new_array(40);
 	parse();
 	algorithm();
+	print_paths();
 //	show_output();
 //	print_rooms();
 //	system("leaks -q Lem_in");

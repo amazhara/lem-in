@@ -1,5 +1,4 @@
 #include "lem-in.h"
-#include "my_printf/includes/ft_printf.h"
 
 void	print_room(t_room *room)
 {
@@ -19,7 +18,7 @@ void	print_rooms()
 		if (g_rooms->arr[i]->links->arr[0]->name)
 			while (++j < g_rooms->arr[i]->links->len)
 				ft_printf(" %s ", g_rooms->arr[i]->links->arr[j]->name);
-		echo("\n");
+		ft_printf("\n");
 	}
 }
 
@@ -30,16 +29,23 @@ void	show_output()
 	i = -1;
 	while (++i < out->len)
 	{
-		printf("%s\n", (char*)out->arr[i]);
+		ft_printf("%s\n", (char*)out->arr[i]);
 	}
 }
 
-void	print(char *line)
+void	print_paths()
 {
-	ft_printf("%s", line);
+	ssize_t		i;
+	ssize_t 	j;
+
+	i = -1;
+	while (++i < g_path->len)
+	{
+		ft_printf("Path %d {\n*******\n", i);
+		j = -1;
+		while (++j < g_path->arr[i]->len)
+			ft_printf("%s\n", g_path->arr[i]->arr[j]->name);
+		ft_printf("*******\n}\n\n");
+	}
 }
 
-void	add_error(char *er_message)
-{
-	ft_memcpy(g_error, er_message, ft_strlen(er_message));
-}

@@ -26,6 +26,22 @@ typedef __int128_t	t_bzero_padd;
 
 /*
 ******************								******************
+******************			Ft_array			******************
+******************								******************
+*/
+
+typedef struct		s_array
+{
+	void		**arr;
+	ssize_t 	len;
+	ssize_t		max;
+}					t_array;
+
+void	*new_array(size_t amount);
+void	*push_array(void *dst ,void *elem);
+
+/*
+******************								******************
 ******************		My get_line function	******************
 ******************								******************
 */
