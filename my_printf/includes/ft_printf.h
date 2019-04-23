@@ -14,7 +14,7 @@
 # define _FT_PRINTF_H
 
 # include <stdarg.h>
-# include "libft.h"
+# include "../libft/libft.h"
 
 typedef struct		s_flag_printf
 {
@@ -54,6 +54,7 @@ typedef struct		s_printf
 
 }					t_printf;
 
+int					ft_printf(const char *str, ...);
 int					pars_and_process(const char *str, t_printf *p
 , va_list *ap, int i);
 int					width_star(t_printf *p, va_list ap, int i);

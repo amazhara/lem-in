@@ -3,8 +3,10 @@
 int main()
 {
 	g_rooms = new_array(40);
-//	ft_printf("aho");
 	parse();
-	print_rooms();
+	algorithm();
+//	show_output();
+//	print_rooms();
+//	system("leaks -q Lem_in");
 	return 0;
 }

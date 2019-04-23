@@ -1,7 +1,7 @@
 #include "lem-in.h"
 
-void	valid_antcount(int antcount)
+void	valid_antcount(int antscount)
 {
-	if (antcount <= 0)
+	if (antscount <= 0)
 		add_error("Invalid ants number");
 }

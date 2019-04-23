@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 char			*ft_itoa_malloc(intmax_t c, intmax_t m, intmax_t count)
 {

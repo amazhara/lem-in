@@ -1,9 +1,23 @@
 #include "lem-in.h"
+#include "my_printf/includes/ft_printf.h"
 
 static int 	head_point = false;
 static int 	tail_point = false;
-static int 	i = false;
 
+void	explode_properties(char *line)
+{
+	t_room	*room;
+
+	room = add_room(ft_strsplit(line, ' '));
+	if (head_point && !g_head)
+		g_head = room;
+	else if (tail_point && !g_tail)
+		g_tail = room;
+	else
+		add_error("More then one property");
+	head_point = false;
+	tail_point = false;
+}
 
 void	take_properties(char *line)
 {
@@ -11,25 +25,27 @@ void	take_properties(char *line)
 	{
 		if (!ft_strcmp(line + 2, "start"))
 			head_point = true;
-		if (!ft_strcmp(line + 2, "end"))
+		else if (!ft_strcmp(line + 2, "end"))
 			tail_point = true;
+		else
+			add_error("Wrong property");
 	}
 }
 
 void	check_line(char *line)
 {
-//	if (ft_strchr(line, '-'))
-//		return;
 	if (!(*line))
 		return add_error("Empty lines");
+	if (*line == 'L')
+		return add_error("Wrong room name");
 	if (ft_intlen(ft_atoi(line)) == ft_strlen(line))
 		return (valid_antcount((g_antscount = ft_atoi(line))));
 	if (*line == '#')
 		return (take_properties(line));
 	if (ft_strchr(line, ' '))
 		add_room(ft_strsplit(line, ' '));
-//	else
-//		add_link(ft_strsplit(line, '-'));
+	if (ft_strchr(line, '-'))
+		add_link(ft_strsplit(line, '-'));
 }
 
 void	parse()
@@ -41,9 +57,12 @@ void	parse()
 	fd = open("../file1", O_RDONLY);
 	while (get_next_line(fd, &line) > 0 && !(*g_error))
 	{
-		check_line(line);
-//		printf("%s\n", line);
-		free(line);
+		if (head_point || tail_point)
+			explode_properties(line);
+		else
+			check_line(line);
+		push_array(out, (t_room*)line);
 	}
-
+	if (*g_error)
+		ft_printf("%s\n", g_error);
 }

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 intmax_t	d_minus_plus_case(t_printf *p, intmax_t arg)
 {

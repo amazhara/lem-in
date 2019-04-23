@@ -11,35 +11,32 @@ t_rooms	*new_array(size_t amount)
 	return (res);
 }
 
-t_room	*push_array(t_room *elem)
+t_room	*push_array(t_rooms *rooms, t_room *elem)
 {
 	t_room	**tmp;
 
-	if (g_rooms->len >= g_rooms->max)
+	if (rooms->len >= rooms->max)
 	{
-		g_rooms->max *= 2;
-		tmp = malloc(g_rooms->max * sizeof(t_room*));
-		ft_memcpy(tmp, g_rooms->arr, sizeof(t_room*) * g_rooms->len);
-		free(g_rooms->arr);
-		g_rooms->arr = tmp;
+		rooms->max *= 2;
+		tmp = malloc(rooms->max * sizeof(t_room*));
+		ft_memcpy(tmp, rooms->arr, sizeof(t_room*) * rooms->len);
+		free(rooms->arr);
+		rooms->arr = tmp;
 	}
-	return ((g_rooms->arr[g_rooms->len++] = elem));
+	return ((rooms->arr[rooms->len++] = elem));
 }
 
-
-void	add_room(char **names)
+t_room	*add_room(char **names)
 {
 	t_room	*room;
 
-//	printf("%s %s %s\n", names[0], names[1], names[2]);
 	room = malloc(sizeof(t_room));
 	room->name = ft_strdup(names[0]);
 	room->coords[0] = ft_atoi(names[1]);
 	room->coords[1] = ft_atoi(names[2]);
-	printf("%s %d %d\n", room->name, room->coords[0], room->coords[1]);
-//	room->links = new_array(4);
-	push_array(room);
-//	ft_double_free(names, 2);
+	room->links = new_array(4);
+	ft_double_free(names, 2);
+	return (push_array(g_rooms, room));
 }
 
 t_room	*search_room(char *name)
@@ -63,6 +60,7 @@ void	add_link(char **names)
 
 	first_room = search_room(names[0]);
 	second_room = search_room(names[1]);
-//	push_array(first_room->links, second_room);
-//	push_array(second_room->links, first_room);
+	push_array(first_room->links, second_room);
+	push_array(second_room->links, first_room);
+	ft_double_free(names, 1);
 }
