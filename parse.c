@@ -54,7 +54,7 @@ void	parse()
 	char 	*line = NULL;
 
 	out = new_array(1000);
-	fd = open("../big", O_RDONLY);
+	fd = open("../file1", O_RDONLY);
 	while (get_next_line(fd, &line) > 0 && !(*g_error))
 	{
 		if (head_point || tail_point)
@@ -64,5 +64,8 @@ void	parse()
 		push_array(out, (t_room*)line);
 	}
 	if (*g_error)
+	{
 		ft_printf("%s\n", g_error);
+		exit(0);
+	}
 }

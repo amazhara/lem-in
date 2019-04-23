@@ -37,15 +37,17 @@ void	print_paths()
 {
 	ssize_t		i;
 	ssize_t 	j;
+	ssize_t 	num;
 
 	i = -1;
 	while (++i < g_path->len)
 	{
 		ft_printf("Path %d {\n*******\n", i);
 		j = -1;
+		num = -1;
 		while (++j < g_path->arr[i]->len)
-			ft_printf("%s\n", g_path->arr[i]->arr[j]->name);
+			ft_printf("%d | name ---> %s\n", ++num, g_path->arr[i]->arr[j]->name);
+		ft_printf("----\n*%d*\n----\n", g_path->arr[i]->pathlen);
 		ft_printf("*******\n}\n\n");
 	}
 }
-

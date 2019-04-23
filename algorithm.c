@@ -20,10 +20,12 @@ void	add_path()
 	room = g_head;
 	++num;
 	push_array(g_path, new_array(1));
+	g_path->arr[num]->pathlen = 1;
 	while (room->parent)
 	{
 		push_array(g_path->arr[num], room);
 		room->visited = true;
+		g_path->arr[num]->pathlen++;
 		room = room->parent;
 	}
 	push_array(g_path->arr[num], g_tail);
@@ -37,7 +39,8 @@ void	add_to_queue(t_room *room)
 	i = -1;
 	while (++i < room->links->len)
 	{
-		if (room->links->arr[i]->parent || room->links->arr[i] == g_tail || room->links->arr[i]->visited)
+		if (room->links->arr[i]->parent ||
+		room->links->arr[i] == g_tail || room->links->arr[i]->visited)
 			continue;
 		room->links->arr[i]->parent = room;
 		push_array(g_queue, room->links->arr[i]);

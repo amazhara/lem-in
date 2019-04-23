@@ -13,6 +13,7 @@ struct	s_rooms
 	t_room	**arr;
 	ssize_t len;
 	ssize_t max;
+	ssize_t	pathlen;
 };
 
 struct	s_room
