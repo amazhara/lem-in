@@ -5,19 +5,21 @@ void	print_room(t_room *room)
 	ft_printf("name ---> %s  {%d, %d}", room->name, room->coords[0], room->coords[1]);
 };
 
-void	print_rooms()
+void	print_rooms(t_rooms *rooms)
 {
 	ssize_t i;
 	ssize_t j;
 
 	i = -1;
-	while (++i < g_rooms->len)
+	if (!rooms)
+		rooms = g_rooms;
+	while (++i < rooms->len)
 	{
 		j = -1;
-		print_room(g_rooms->arr[i]);
-		if (g_rooms->arr[i]->links->arr[0]->name)
-			while (++j < g_rooms->arr[i]->links->len)
-				ft_printf(" %s ", g_rooms->arr[i]->links->arr[j]->name);
+		print_room(rooms->arr[i]);
+		if (rooms->arr[i]->links->arr[0]->name)
+			while (++j < rooms->arr[i]->links->len)
+				ft_printf(" %s ", rooms->arr[i]->links->arr[j]->name);
 		ft_printf("\n");
 	}
 }
@@ -27,9 +29,9 @@ void	show_output()
 	ssize_t i;
 
 	i = -1;
-	while (++i < out->len)
+	while (++i < g_out->len)
 	{
-		ft_printf("%s\n", (char*)out->arr[i]);
+		ft_printf("%s\n", (char*)g_out->arr[i]);
 	}
 }
 

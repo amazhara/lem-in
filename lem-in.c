@@ -8,7 +8,7 @@ int main()
 	release_ants();
 //	print_paths();
 //	show_output();
-//	print_rooms();
+//	print_rooms(NULL);
 //	system("leaks -q Lem_in");
 	return 0;
 }

@@ -53,15 +53,15 @@ void	parse()
 	int 	fd;
 	char 	*line = NULL;
 
-	out = new_array(1000);
-	fd = open("../file1", O_RDONLY);
-	while (get_next_line(fd, &line) > 0 && !(*g_error))
+	g_out = new_array(1000);
+	fd = open("../big", O_RDONLY);
+	while (!(*g_error) && get_next_line(fd, &line) > 0)
 	{
 		if (head_point || tail_point)
 			explode_properties(line);
 		else
 			check_line(line);
-		push_array(out, (t_room*)line);
+		push_array(g_out, (t_room*)line);
 	}
 	if (*g_error)
 	{
