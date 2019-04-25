@@ -14,7 +14,7 @@ void	check_line(char *line)
 	if (*line == 'L')
 		return add_error("Wrong room name");
 	if ((ft_intlen(ft_atoi(line)) == ft_strlen(line)) && g_antscount)
-		return add_error("Empty number");
+		return add_error("Wrong symbol");
 	take_line(line);
 }
 

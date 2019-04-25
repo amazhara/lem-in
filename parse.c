@@ -39,6 +39,8 @@ void	take_line(char *line)
 		g_antscount = ft_atoi(line);
 		return ;
 	}
+	if (ft_strstr(line, "#Here is the number of lines required: "))
+		g_stat[1] = ft_atoi(line + 38);
 	if (*line == '#')
 		return (take_properties(line));
 	if (strchr_count(line, ' ') == 2)
@@ -57,8 +59,8 @@ void	parse()
 
 	g_out = new_array(1000);
 	valid_coords = new_array(100);
-	fd = open("../super", O_RDONLY);
-	while (!(*g_error) && get_next_line(0, &line) > 0)
+	fd = open("../big", O_RDONLY);
+	while (!(*g_error) && get_next_line(fd, &line) > 0)
 	{
 		if (head_point || tail_point)
 			explode_properties(line);

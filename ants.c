@@ -14,7 +14,8 @@ void	take_ant(t_room	*room)
 			g_ants->arr[i] = NULL;
 			num = ft_itoa(i + 1);
 			room->ant = ft_strjoin("L", num);
-			ft_printf("%s-%s ", room->ant, room->name);
+			if (!g_av.silent)
+				ft_printf("%s-%s ", room->ant, room->name);
 			free(num);
 			return ;
 		}
@@ -28,7 +29,8 @@ void	moove_next_ant(t_rooms *path)
 	while (--i)
 		if (path->arr[i]->ant)
 		{
-			ft_printf("%s-%s ", path->arr[i]->ant, path->arr[i + 1]->name);
+			if (!g_av.silent)
+				ft_printf("%s-%s ", path->arr[i]->ant, path->arr[i + 1]->name);
 			if (path->arr[i + 1] == g_tail)
 			{
 				g_antscount--;
@@ -64,16 +66,21 @@ void right_way()
 
 	i = 0;
 	while (g_antscount--)
-		ft_printf("%s%d-%s ", "L", ++i, g_tail->name);
-	ft_printf("\n");
+	{
+		if (!g_av.silent)
+			ft_printf("%s%d-%s ", "L", ++i, g_tail->name);
+	}
+	if (!g_av.silent)
+		ft_printf("\n");
 }
 
 void	release_ants()
 {
 	ssize_t count;
-	ssize_t lines = 0;
 	ssize_t i;
+	int		lines;
 
+	lines = 0;
 	count = g_antscount;
 	g_ants = new_array((size_t)g_antscount);
 	if (g_path->arr[0]->arr[0] == g_head && g_path->arr[0]->arr[1] == g_tail)
@@ -88,8 +95,9 @@ void	release_ants()
 		i = -1;
 		while (++i < g_path->len)
 			take_ant(g_path->arr[i]->arr[1]);
-		ft_printf("\n");
+		if (!g_av.silent)
+			ft_printf("\n");
 		lines++;
 	}
-//	ft_printf("%d\n", lines);
+	g_stat[0] = lines;
 }
