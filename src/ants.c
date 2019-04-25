@@ -1,11 +1,23 @@
-#include "lem-in.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ants.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: amazhara <amazhara@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/04/25 13:42:01 by amazhara          #+#    #+#             */
+/*   Updated: 2019/04/25 16:31:29 by amazhara         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-t_rooms		*g_ants;
+#include "lem_in.h"
 
-void	take_ant(t_room	*room)
+t_rooms	*g_ants;
+
+void	take_ant(t_room *room)
 {
-	ssize_t 	i;
-	char 		*num;
+	ssize_t		i;
+	char		*num;
 
 	i = -1;
 	while (++i < g_ants->len)
@@ -44,8 +56,8 @@ void	moove_next_ant(t_rooms *path)
 
 void	init_ants(ssize_t *count)
 {
-	ssize_t 	i;
-	ssize_t 	len;
+	ssize_t		i;
+	ssize_t		len;
 
 	i = -1;
 	len = 0;
@@ -60,9 +72,9 @@ void	init_ants(ssize_t *count)
 	}
 }
 
-void right_way()
+void	right_way(void)
 {
-	int 	i;
+	int			i;
 
 	i = 0;
 	while (g_antscount--)
@@ -74,7 +86,7 @@ void right_way()
 		ft_printf("\n");
 }
 
-void	release_ants()
+void	release_ants(void)
 {
 	ssize_t count;
 	ssize_t i;

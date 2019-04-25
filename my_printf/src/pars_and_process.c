@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 int		process_printf_type(const char *str, t_printf *p, va_list *ap, int i)
 {

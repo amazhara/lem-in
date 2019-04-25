@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 uintmax_t	ft_base_len(uintmax_t n, uintmax_t base)
 {

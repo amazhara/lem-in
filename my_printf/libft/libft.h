@@ -6,7 +6,7 @@
 /*   By: amazhara <amazhara@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/25 10:00:46 by amazhara          #+#    #+#             */
-/*   Updated: 2019/04/22 18:00:20 by amazhara         ###   ########.fr       */
+/*   Updated: 2019/04/25 13:46:02 by amazhara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,13 @@ typedef __int128_t	t_bzero_padd;
 
 typedef struct		s_array
 {
-	void		**arr;
-	ssize_t 	len;
-	ssize_t		max;
+	void			**arr;
+	ssize_t			len;
+	ssize_t			max;
 }					t_array;
 
-void	*new_array(size_t amount);
-void	*push_array(void *dst ,void *elem);
+void				*new_array(size_t amount);
+void				*push_array(void *dst, void *elem);
 
 /*
 ******************								******************

@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   printf_stars.c                                     :+:      :+:    :+:   */
+/*   lem_in.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amazhara <amazhara@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: amazhara <amazhara@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/23 14:48:27 by amazhara          #+#    #+#             */
-/*   Updated: 2018/12/23 14:48:28 by amazhara         ###   ########.fr       */
+/*   Created: 2019/04/25 13:42:17 by amazhara          #+#    #+#             */
+/*   Updated: 2019/04/25 16:13:08 by amazhara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "lem_in.h"
 
-int		width_star(t_printf *p, va_list ap, int i)
+int		main(int ac, char **av)
 {
-	p->m.width = va_arg(ap, intmax_t);
-	return (++i);
-}
-
-int		presicion_star(t_printf *p, va_list ap, int i)
-{
-	p->m.percision = va_arg(ap, intmax_t);
-	return (++i);
+	if (!take_args(av))
+		return (0);
+	(void)ac;
+	g_rooms = new_array(40);
+	parse();
+	algorithm();
+	if (!g_av.silent)
+		show_output();
+	release_ants();
+	print_args();
 }
