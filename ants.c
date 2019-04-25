@@ -58,14 +58,26 @@ void	init_ants(ssize_t *count)
 	}
 }
 
+void right_way()
+{
+	int 	i;
+
+	i = 0;
+	while (g_antscount--)
+		ft_printf("%s%d-%s ", "L", ++i, g_tail->name);
+	ft_printf("\n");
+}
+
 void	release_ants()
 {
 	ssize_t count;
-	ssize_t sho = 0;
+	ssize_t lines = 0;
 	ssize_t i;
 
 	count = g_antscount;
 	g_ants = new_array((size_t)g_antscount);
+	if (g_path->arr[0]->arr[0] == g_head && g_path->arr[0]->arr[1] == g_tail)
+		return (right_way());
 	while (count)
 		init_ants(&count);
 	while (g_antscount)
@@ -77,7 +89,7 @@ void	release_ants()
 		while (++i < g_path->len)
 			take_ant(g_path->arr[i]->arr[1]);
 		ft_printf("\n");
-		sho++;
+		lines++;
 	}
-	ft_printf("num --> %d\n", sho);
+//	ft_printf("%d\n", lines);
 }

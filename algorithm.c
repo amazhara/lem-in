@@ -29,7 +29,8 @@ void	add_path()
 		room = room->parent;
 	}
 	push_array(g_path->arr[num], g_tail);
-	g_head->visited = 0;
+	if (g_head->parent != g_tail)
+		g_head->visited = 0;
 }
 
 void	add_to_queue(t_room *room)

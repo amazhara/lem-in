@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int		strchr_counr(char *line, char symbol)
+int		strchr_count(char *line, char symbol)
 {
 	int 	i;
 	int 	count;

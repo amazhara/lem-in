@@ -23,7 +23,7 @@ IFLAGS :=	-I .
 LIB :=		$(LIB_PATH)libft.a
 HFILES :=	libft
 FILES := 	ft_itoa ft_strcpy ft_strncpy ft_strcat ft_strncat ft_strlcat \
-			ft_strdel ft_strclr ft_strmap ft_strmapi ft_strnjoin \
+			ft_strdel ft_strclr ft_strmap ft_strmapi ft_strnjoin ft_isnum \
 			ft_strequ ft_strnequ ft_strsub ft_strjoin ft_strtrim strchr_count \
 			ft_strchr ft_strsplit ft_strrchr ft_strstr ft_strnstr ft_strcmp \
 			ft_strncmp ft_isalpha ft_isdigit ft_isalnum ft_isascii ft_isprint \

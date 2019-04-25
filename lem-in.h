@@ -32,20 +32,24 @@ struct	s_path
 	ssize_t max;
 };
 
-void	valid_antcount(ssize_t antscount);
+void	validate_coordinate(int	coords[2]);
 void 	print_rooms(t_rooms *rooms);
 void	add_error(char *er_message);
 void	print_room(t_room *room);
 t_room	*search_room(char *name);
 t_room	*add_room(char **names);
+void	check_line(char *line);
 void	add_link(char **names);
+void	take_line(char *line);
 void	release_ants();
 void	show_output();
 void	print_paths();
 void	algorithm();
+void	validate();
 void	parse();
 
 t_rooms	*g_rooms;
+t_rooms	*valid_coords;
 t_path	*g_path;
 t_rooms	*g_out;
 t_room	*g_head;

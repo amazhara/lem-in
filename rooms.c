@@ -4,6 +4,11 @@ t_room	*add_room(char **names)
 {
 	t_room	*room;
 
+	if (!ft_isnum(names[1]) || !ft_isnum(names[2]) || !names[0])
+	{
+		add_error("Wrong coordinate or empty room name");
+		return (NULL);
+	}
 	room = ft_memalloc(sizeof(t_room));
 	room->name = ft_strdup(names[0]);
 	room->coords[0] = ft_atoi(names[1]);
@@ -32,8 +37,10 @@ void	add_link(char **names)
 	t_room	*first_room;
 	t_room	*second_room;
 
-	first_room = search_room(names[0]);
-	second_room = search_room(names[1]);
+	if (!(first_room = search_room(names[0])))
+		return add_error("No such room to connect");
+	if (!(second_room = search_room(names[1])))
+		return add_error("No such room to connect");
 	push_array(first_room->links, second_room);
 	push_array(second_room->links, first_room);
 	ft_double_free(names, 1);

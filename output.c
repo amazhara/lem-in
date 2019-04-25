@@ -44,7 +44,7 @@ void	print_paths()
 	i = -1;
 	while (++i < g_path->len)
 	{
-		ft_printf("Path %d {\n*******\n", i);
+		ft_printf("{Path} %d {\n*******\n", i);
 		j = -1;
 		num = -1;
 		while (++j < g_path->arr[i]->len)
