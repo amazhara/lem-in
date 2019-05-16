@@ -1,4 +1,4 @@
-options:\n
+options:<br /> 
 	--path : Show found paths
 	--help : to read this manual
 	--silent : silent ants and file output
