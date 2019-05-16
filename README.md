@@ -1,3 +1,4 @@
+<pre>
 options:<br /> 
 	--path : Show found paths
 	--help : to read this manual
